@@ -1,0 +1,81 @@
+body {
+  background-color: #f0f0f0;
+}
+
+table tr td {
+  border: 1px solid black;
+}
+
+h1 {
+  font-family: "Roboto", "helvetica", sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", "helvetica", sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+
+table {
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+}
+
+#rover {
+  width: 20px;
+  height: 20px;
+  margin-left: 14px;
+}
+
+#title {
+  margin: 20px 0;
+}
+
+#content {
+  width: 1000px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  border: 3px solid black;
+  background-color: #fff;
+}
+
+#startButton {
+  margin: auto;
+  width: 20%;
+  display: block;
+  padding: 10px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+#dirtracker {
+  display: none;
+}
+
+#postracker {
+  display: none;
+}
+
+#commands {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  padding top: 20px;
+  display: none;
+}
+
+#commandtext {
+  margin: 15px 0;
+}

@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Mars Rover Kata!</title>
+	<script src="rover.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<div id="content">
+  <div id="title">
+    <h1>Mars Rover Kata</h1>
+  </div>
+  <div id="wrapper">
+    <button id="startButton" onclick="createGrid(); initialise();">Start!</button>
+    <p id="dirtracker">Current direction: E</p>
+    <p id="postracker">Current position: (0, 0)</p>
+  </div>
+  <div id="table">
+  </div>
+  <div id="commands">
+    <button id="left" onclick="turnLeft(myRover)">Turn Left</button>
+    <button id="forward" onclick="goForward(myRover)">Go Forward</button>
+    <button id="backward" onclick="goBackward(myRover)">Go Backward</button>
+    <button id="right" onclick="turnRight(myRover)">Turn Right</button>
+    <p id="commandtext">Enter string of commands below: 'f' forward, 'b' backwards, 'l' turn left, 'r' turn right</p>
+    <input type="text" id="textField" placeholder="Enter commands here...">
+    <input type="submit" id="byBtn" value="Go" onclick="command()"/>
+  </div>
+</div>
+</body>
+</html>
